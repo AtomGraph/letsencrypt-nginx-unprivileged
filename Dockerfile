@@ -11,6 +11,6 @@ RUN apt-get update && \
     mkdir -p /etc/letsencrypt/live && \
     chown -R nginx:nginx /etc/letsencrypt/live && \
     mkdir -p /var/log/letsencrypt && \
-    chown -R nginx:nginx /var/log/letsencrypt && \
+    chown -R nginx:nginx /var/log/letsencrypt
 
 USER nginx
