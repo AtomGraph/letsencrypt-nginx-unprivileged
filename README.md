@@ -1,5 +1,5 @@
 # nginx
-nginx Docker image with `ping` installed
+Unprivileged nginx Docker image with [awscliv2](https://pypi.org/project/awscliv2/) and [python3-certbot-dns-route53](https://certbot-dns-route53.readthedocs.io/) installed.
 
 # Usage
 
